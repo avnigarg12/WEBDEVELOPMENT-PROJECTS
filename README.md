@@ -1,2 +1,2 @@
-# WEBDEVELOPMENT-TASKS-S-OF-INFOTECH-PRODIGY-
-I have development projects using html , css , and javascript 
+# WEBCEVELOPMENT PROJECTS 
+I have create  interactive projects using html,css,and javascrit.

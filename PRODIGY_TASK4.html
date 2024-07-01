@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .about, .projects, .skills {
+            margin-bottom: 40px;
+        }
+        .about img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .projects img {
+            width: 40%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avni Garg</h1>
+        <p>Web Developer</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm Avni Garg, a passionate web developer with experience in creating responsive websites. Explore my work and get to know more about my skills and experience.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/150" alt="John Doe">
+            <p>Hi, I'm Avni Garg, a web developer based in City, Country. I have a strong background in computer science with a degree from XYZ University. Over the past few years, I have developed numerous web applications using various technologies.</p>
+            <p>I am proficient in HTML, CSS, JavaScript. I am passionate about coding and always eager to learn new technologies and improve my skills.</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <h3>Project 1</h3>
+            <img src="https://via.placeholder.com/600x400" alt="Project 1">
+            <p>This project is a web application that allows users to track their tasks and manage their time efficiently.</p>
+            <h3>Project 2</h3>
+            <img src="https://via.placeholder.com/600x400" alt="Project 2">
+            <p>This project is an e-commerce website built with React and Node.js, providing a seamless shopping experience for users.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>MongoDB, MySQL</li>
+                <li>Git, GitHub</li>
+                <li>React , nodejs </li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; All rights reserved.</p>
+    </footer>
+</body>
+</html>

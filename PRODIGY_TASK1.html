@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>
+INTERACTIVE NAVIGATION MENU 
+</title>
+<style>
+body{
+    font-family:Ariel, sans-serif;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    transition: background-color rgb(176, 185, 192);
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.navbar li{
+    margin:0 15px;
+}
+.navbar a:hover{
+    background:grey;
+
+}
+.navbar a{
+    text-decoration: none;
+    padding:14px 20px;
+    display: block;
+
+}
+section{
+    margin:50px 0;
+    padding:20px;
+    background-color: rgb(172, 172, 177);
+    border:1px solid rgb(147, 195, 132);
+
+}
+.content{
+    margin-top:60px;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+<div class="content">
+<section id="home">
+<h1 style="text-align: center;">HOME SECTION</h1>
+<p style="text-align: center;">Content goes here...</p>
+</section>
+<section id="About">
+<h1 style="text-align: center;">ABOUT US</h1>
+<p style="text-align: center;">Content goes here...</p>
+</section>
+<section id="service">
+<h1 style="text-align: center;">OUR SERVICES</h1>
+<p style="text-align: center;">Content goes here...</p>
+</section>
+<section id="contact">
+<h1 style="text-align: center;"  >CONTACT US </h1>
+<p style="text-align: center;" >Content goes here...</p>
+</section>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = 'rgb(147,195,132)';
+            } else {
+                navbar.style.backgroundColor = 'rgb(170,172,54)';
+            }
+        });
+    });
+</script>
+</body>
+</html>
